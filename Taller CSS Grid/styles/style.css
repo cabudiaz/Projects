@@ -1,0 +1,265 @@
+body {
+    margin: 0px !important;
+    font-family: 'Lato';
+}
+
+h3 {
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding-top: 30px;
+    list-style:none;
+    margin-right: 30px;
+    padding-left: 31px;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: left;
+}
+
+.cabeza-menu {
+    background-color: #dfdfdf;
+    padding: 10px 0px;
+}
+
+.cabeza-menu h3 {
+    margin-left: 30px;
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #626262;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+
+.item5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'left left main main main .'
+        'footer footer footer footer footer .';
+    gap: 10px;
+    background-color: #eeeeee;
+    padding: 0px;
+}
+
+
+
+.item1 {
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.logo img {
+    width: 80px;
+    margin-left: 75px;
+}
+
+.avatar {
+    background-image: url("https://www.novamotors.com.co/wp-content/uploads/2022/09/Icono-2-p.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    background-position: right;
+    border-radius: 35px;
+    margin-left: 252px;
+    margin-top: 12px;
+   
+  }
+
+  .avatar:hover {
+    background-image: url("https://www.novamotors.com.co/wp-content/uploads/2022/09/Icono-1-p.png");
+  }
+
+.cabecera {
+    display: grid;
+    grid-template-columns: auto 30% auto;
+    gap: 10px;
+}
+
+.item2 {
+    background-color: #eaeaea;
+    margin-left: 45px;
+    box-shadow: 2px 5px 7px #0000001c;
+}
+
+.lista {
+    background-color: #eaeaea;
+}
+
+.lista ul li {
+    color: #626262;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+}
+
+.lista ul li:hover {
+    background-color: #626262;
+    color: #eaeaea;
+}
+
+.lista ul {
+    margin-bottom: 20px;
+}
+
+.lista hr {
+    color: #dfdfdf;
+    margin: 0px;
+}
+
+.item3 {
+    background-color: #eaeaea;
+    margin-left: 45px;
+    box-shadow: 2px 5px 7px #0000001c;
+    display: grid;
+    gap: 10px;
+  
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+
+  .caja1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    background-image: url("https://i.blogs.es/f75074/league-legends-seguira-constante-actualizacion_1464463551_673787_1440x810/1366_521.jpeg");
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .caja2 {
+    grid-column: 4;
+    background-image: url("https://i.blogs.es/ea7e11/valorantlaunch/840_560.jpeg");
+    background-size: cover;
+
+  }
+
+  .caja3 {
+    background-image: url("https://image.api.playstation.com/vulcan/img/rnd/202109/2115/5jeuJiXUpb1bZc0Lp1U8N5Ka.png");
+    background-size: cover;
+  }
+
+  .caja4{
+    background-image: url("https://www.latercera.com/resizer/1A0DXH8eoc6WABgVm_duCG73cWo=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/XPG7YDH7W5E2XJ3MSYLBG3C4QQ.jpeg");
+    background-size: cover;
+  }
+
+  .caja5{
+    background-image: url("https://cdn.forbes.co/2020/05/Grand-Theft-Auto-V-640x360-1.jpg");
+    background-size: cover;
+  }
+
+  .caja6 {
+    background-image: url("https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_One-Vanilla_285x380px.jpg");
+    background-size: cover;
+  }
+  .caja7 {
+    background-image: url("https://geekzilla.tech/home/wp-content/uploads/2020/11/World-of-warcraft-gratis-esta-semana-1024x1024.jpg");
+    background-size: cover;
+  }
+  .caja8 {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/eFGBuaRr21HUpGtsy3biwJip.png");
+    background-size: cover;
+  }
+  .caja9 {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202202/2213/M9hPRVNNtur9gEZsRlDyDglf.png");
+    background-size: cover;
+  }
+
+  .caja10 {
+    grid-column: 4;
+    grid-row: 3 / 6;
+    background-image: url("https://www.activision.com/content/dam/atvi/callofduty/cod-touchui/warzone/common/wz-boxart.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .caja11 {
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/copesa/BQWFBNI2VVEDJEQJ3PLHQ6W7IY.jpg");
+    background-size: cover;
+  }
+  .caja12{
+    background-image: url("https://elcomercio.pe/resizer/bhSTlEr0Q5bfFcgTY3m9iYlqHnQ=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/VJH3TB7LO5FHHG4YRU3UUHPNBI.jpg");
+    background-size: cover;
+  }
+  .caja13 {
+    background-image: url("https://i.blogs.es/c4d9b0/fortnite/1366_2000.jpg");
+    background-size: cover;
+  }
+
+  .caja14 {
+    grid-column: 1/3;
+    background-image: url("https://mariokarttour.com/images/ogp/ogp-en-us.png");
+    background-size: cover;
+  }
+  .caja15{
+    background-image: url("https://www.notebookcheck.org/fileadmin/Notebooks/News/_nc3/EiwzImUWAAIHTLQ.jpg");
+    background-size: cover;
+  }
+
+  .item5 {
+    background-color: #eaeaea;
+    margin-left: 45px;
+    box-shadow: 2px 5px 7px #0000001c;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+}
+
+.item5 h3 {
+    grid-column: 1 / 4;
+    padding: 20px 0;
+    color: #626262;
+    background-color: #dfdfdf;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.foto {
+    text-align: center;
+}
+.foto img {
+    width: 100px;
+    margin-bottom: 30px;
+    transition: ease-in .4s;
+}
+
+.foto img:hover {
+    animation: shake 0.7s; 
+    
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
