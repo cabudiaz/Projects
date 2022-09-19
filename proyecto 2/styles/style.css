@@ -38,5 +38,22 @@ a {
 .card-body {
     padding: 0px;
 }
+.card-header {
+    background-color: rgb(241, 240, 238);
+}
+.card .card-header img .card-img-top  {
+    border-radius: none!important;
+}
+.promo {
+    font-size: 12px;;
+}
+.card-text {
+    font-size: 13px;
+    padding: 0px!important;
+    margin: 0px!important;
+}
 
+.letra-boton {
+    font-size: 12px;
+}
 
