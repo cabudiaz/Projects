@@ -27,19 +27,23 @@
     <!-- Menú dist -->
     <!-- Contenedor al 100% -->
     <!-- Contenedor al 100% -->
-    <div class="row mt-3 justify-content-end">
+    <div class="row mt-3 justify-content-end sombra">
       
-      <div class="col-12 menu rounded sombra">
-        <nav class="navbar navbar-expand-md ">
+      <div class="col-8 col-md-9 menu rounded-start ">
+
+        
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
           <div class="container-fluid">
-
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item mt-sm-1 mt-md-0">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown mt-sm-1 mt-md-0">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false">
                     People
@@ -51,27 +55,21 @@
                     <li><a class="dropdown-item" href="#">Comics</a></li>
                   </ul>
                 </li>
-                <li class="nav-item">
+
+                <li class="nav-item ms-lg-5 ms-md-5 mt-sm-2 mt-md-0">
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
 
                 </li>
+               
               </ul>
-
+             
+              
             </div>
+            
           </div>
-
-         
-        
-            <button type="button" class="btn btn-link btn-floating  ">
-              <a class="iconos"><i class="fa-solid fa-house"></i></a>
-            </button>
-            
-          
-          
-            <button type="button" class="btn btn-link btn-floating ">
-              <a class="iconos"> <i class="fa-solid fa-user"></i></a>
-            </button>
-            
-          
         </nav>
      
         
@@ -80,47 +78,98 @@
 
        
       </div>
+
+      <div class="col-4 col-md-3 menu rounded-end mt-2 ps-lg-5 ">
+        <button type="button" class="btn btn-link btn-floating  ">
+          <a class="iconos"><i class="fa-solid fa-house"></i></a>
+        </button>
+        
+      
+      
+        <button type="button" class="btn btn-link btn-floating ">
+          <a class="iconos"> <i class="fa-solid fa-user"></i></a>
+        </button>
+      </div>
       
     </div>
 
-    <div class="row">
-      <div class="col-6 p-0 mt-5">
+    <div class="row mt-5 pt-5 ">
+      <div class="col-12 col-md-6 px-3 ">
         <div class="menu-vertical">
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              Details
+              Learn to program
               <span class="badge bg-primary rounded-pill">14</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              A second list item
+              Intensive courses
               <span class="badge bg-primary rounded-pill">2</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              A third list item
+              BootCamps Full Stack
               <span class="badge bg-primary rounded-pill">1</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Front-end tools
+              <span class="badge bg-primary rounded-pill">5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Front-end Jobs
+              <span class="badge bg-primary rounded-pill">25</span>
             </li>
           </ul>
 
+          <div class="row pt-5 mt-4">
+            <div class="col-6 col-md-6  px-4">
+          <div class="card text-white mb-3" style="max-width: 18rem;">
+            <div class="card-body text-center mb-5">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" width="96" height="auto" class="img-fluid">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-6 col-md-6 px-4">
+          <div class="card  text-center mb-3" style="max-width: 18rem;">
+            <div class="card-body text-center">
+              <img src="https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png" width="70" height="auto" class="img-fluid">
+            </div>
+            
+          </div>
+          
+        </div>
+        <div class="col-6 col-md-6  px-4">
+          <div class="card text-white mb-3" style="max-width: 18rem;">
+            <div class="card-body text-center mb-5">
+              <img src="https://1000marcas.net/wp-content/uploads/2020/11/JavaScript-logo.png" width="150" height="auto" class="img-fluid">
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-6 col-md-6 px-4">
+          <div class="card  text-center mb-3" style="max-width: 18rem;">
+            <div class="card-body text-center">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" width="90" height="auto" class="img-fluid mt-3">
+            </div>
+            
+          </div>
+          
+        </div>
+        </div>
 
-          <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body">
-              <h5 class="card-title">Secondary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
+          
 
         </div>
       </div>
-      <div class="col-6">
-        Je prueba
+      <div class="col-12 col-md-6">
+        <div class="row justify-content-center">
+
+          <div class="card p-3 p-md-0" style="width: 30rem;">
+            <img src="https://www.zdnet.com/a/img/resize/0a6b0be2f543ddbf313fc83a706b807b77c3c202/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=900&width=1200" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
 

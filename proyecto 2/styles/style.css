@@ -26,6 +26,17 @@ a {
 }
 
 .menu-vertical {
-    background-color: aquamarine;
+    
 }
+
+
+
+.card {
+    border: none!important;
+}
+
+.card-body {
+    padding: 0px;
+}
+
 
