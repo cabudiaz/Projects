@@ -21,6 +21,13 @@
 <!-- Contenedor al 100% -->
 
 <body class="body">
+  <script>
+
+    const azul = document.querySelector(".azul")
+    function activo () {
+      azul.style.color = "blue";
+    }
+  </script>
   <div class="container vh-100%">
 
 
@@ -211,7 +218,7 @@
            </div>
            <div class="row  pt-4">
             <div class="col-12 d-flex justify-content-around">
-              <button type="button" class="btn btn-link btn-floating ps-0 ">
+              <button onclick="activo()" type="button" class="btn btn-link btn-floating ps-0 azul ">
                 <a class="iconos post"><i class="fa-regular fa-thumbs-up"></i></a>
               </button>
               <button type="button" class="btn btn-link btn-floating ps-5 ">
