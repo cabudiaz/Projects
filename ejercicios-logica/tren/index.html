@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Tren</title>
+    <style>
+      td {
+        font-size: 12px;
+        
+      }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid vh-100 d-flex justify-content-around align-items-center">
+        <div class=" col-3 border border-success p-5">
+            
+<div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Cliente</span>
+    <input type="number" class="form-control input-cliente" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  
+  <select class="form-select vagones my-3" aria-label="Default select example">
+    
+    <option selected>Seleccione vagón</option>
+    <option  value="0">Vagón 1</option>
+    <option  value="1">Vagón 2</option>
+    <option  value="2">Vagón 3</option>
+    <option  value="3">Vagón 4</option>
+    <option  value="4">Vagón 5</option>
+    <option  value="5">Vagón 6</option>
+    <option  value="6">Vagón 7</option>
+    <option  value="7">Vagón 8</option>
+    <option  value="8">Vagón 9</option>
+    <option  value="9">Vagón 10</option>
+    
+    
+  </select>
+ 
+  <select class="form-select sillas mb-3" aria-label="Default select example">
+    <option selected>Seleccione silla</option>
+    <option  value="1">Silla 1</option>
+    <option  value="2">Silla 2</option>
+    <option  value="3">Silla 3</option>
+    <option  value="4">Silla 4</option>
+    <option  value="5">Silla 5</option>
+    <option  value="6">Silla 6</option>
+    <option  value="7">Silla 7</option>
+    <option  value="8">Silla 8</option>
+    <option  value="9">Silla 9</option>
+    <option  value="10">Silla 10</option>
+    
+ 
+  </select>
+
+
+ 
+  
+
+  
+  <div class="row">
+    <div class="col d-flex justify-content-around">
+      <button type="button" class="btn btn-primary" onclick="registro(), lectura()" >Registrar</button>
+      <button type="button" class="btn btn-primary" onclick="eliminarPasajero()" >Eliminar pasajero</button>
+    </div>
+    
+
+  </div>
+  
+  <div class="row">
+    <table class="table">
+        
+        <tbody>
+           <tr>
+            
+          </tr> 
+          
+          
+        </tbody>
+      </table>
+  </div>
+
+ 
+  
+ 
+  
+        </div>
+        <div class="col-8 border border-success p-5">
+          <div class="row estado-tren">
+            <table >
+              <thead>
+                <th>Vagón</th>
+                
+                <th>Silla 1</th>
+                <th></th>
+                <th>Silla 2</th>
+                <th></th>
+                <th>Silla 3</th>
+                <th></th>
+                <th>Silla 4</th>
+                <th></th>
+                <th>Silla 5</th>
+                <th></th>
+                <th>Silla 6</th>
+                <th></th>
+                <th>Silla 7</th>
+                <th></th>
+                <th>Silla 8</th>
+                <th></th>
+                <th>Silla 9</th>
+                <th></th>
+                <th>Silla 10</th>
+                <th></th>
+                
+                
+              </thead>
+              <tbody class="pru" >
+                
+                <tr id="vagon0">
+                  
+                </tr>
+                <tr id="vagon1">
+                  <td>2</td>
+                </tr>
+                <tr id="vagon2">
+                  <td>2</td>
+                </tr>
+                <tr id="vagon3">
+                  
+                </tr>
+                <tr id="vagon4">
+                  
+                </tr>
+                <tr id="vagon5">
+                  
+                </tr>
+                <tr id="vagon6">
+                  
+                </tr>
+                <tr id="vagon7">
+                  
+                </tr>
+                <tr id="vagon8">
+                  
+                </tr>
+                <tr id="vagon9">
+                  
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+        </div>
+    </div>
+
+ 
+    <script src="main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>    
+</body>
